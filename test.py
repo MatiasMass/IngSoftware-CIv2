@@ -9,7 +9,7 @@ def test_data():
     <title>Ingenieria Software CI</title>
   </head>
   <body>
-    <h1>Flask is working!</h1>
+    <h1>Flask is working!!</h1>
   </body>
 </html>"""
     assert response.data.strip() == expected.strip()
